@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    margin-top: 10px;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .research-areas{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    padding: 0 40px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.research-areas h3{
+    font-size: 2.5em;
+}
+button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
+    border-radius: 25px;
+    border: 1px solid black;
+    
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    gap: 10px;
+    background-color: rgb(98, 181, 204);
+}
+
+button a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+button svg{
+    color: rgb(0, 0, 0);
+} */
+
+.footer-content{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-top: 1px solid grey;
+}
+
+.logo-content{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+    flex: 7;
+    align-items: center;
+}
+
+.logo-content img{
+    width: 10em;
+}
+
+.logo-content p{
+    font-size: 1.25em;
+    padding: 0 0 0 10px;
+}
+.company-content{
+    flex: 3;
+}
+.research{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.research a{
+    text-decoration: none;
+    color: black;
+}
+
+.legal{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.copy-right a{
+    text-decoration: none;
+    color: grey;
+}
+
+.terms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.terms p{
+    color:grey;
+
+}
+
+.copy-right p{
+    color:grey;
+}

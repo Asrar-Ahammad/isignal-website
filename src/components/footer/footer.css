@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.footer{
+.footer {
     margin-top: 10px;
     height: 25vh;
     display: flex;
@@ -54,47 +54,56 @@ button svg{
     color: rgb(0, 0, 0);
 } */
 
-.footer-content{
+.footer-content {
     width: 100%;
     height: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 2em;
     border-top: 1px solid grey;
 }
 
-.logo-content{
+.logo-content {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 30px;
     flex: 7;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.logo-content img{
+.logo-content img {
     width: 10em;
 }
 
-.logo-content p{
-    font-size: 1.25em;
+.logo-content p {
+    font-size: 1em;
     padding: 0 0 0 10px;
-}
-.company-content{
-    flex: 3;
-}
-.research{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
-}
-.research a{
-    text-decoration: none;
-    color: black;
+    font-weight: 600;
 }
 
-.legal{
+.company-contents {
+    display: flex;
+    gap: 2em;
+}
+
+.research {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.research a{
+    text-decoration: none;
+    color: grey;
+}
+
+.research a:hover{
+    color: rgb(49,133,155);
+    text-decoration: underline;
+}
+
+.legal {
     width: 100%;
     height: 10%;
     display: flex;
@@ -104,12 +113,12 @@ button svg{
     cursor: pointer;
 }
 
-.copy-right a{
+.copy-right a {
     text-decoration: none;
     color: grey;
 }
 
-.terms{
+.terms {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,11 +126,19 @@ button svg{
     cursor: pointer;
 }
 
-.terms p{
-    color:grey;
+.terms p {
+    color: grey;
 
 }
 
-.copy-right p{
-    color:grey;
+.terms p:hover{
+    color:rgb(49,133,155)
+}
+
+.copy-right a {
+    color: grey;
+}
+
+.copy-right a:hover{
+    color: rgb(49,133,155);
 }

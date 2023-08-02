@@ -1,0 +1,200 @@
+.company-page {
+    width: 100%;
+    padding: 2em;
+
+}
+
+@keyframes animateBlob {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.company-profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.blob {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    border-radius: 51% 49% 38% 62% / 54% 51% 49% 46%;
+    background-color: rgb(49, 133, 155);
+    animation: animateBlob 15s linear infinite;
+}
+
+.blobBx {
+    position: absolute;
+    width: 650px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    flex-direction: column;
+}
+
+.blobBx p {
+    text-align: center;
+    font-size: 1.3em;
+    color: aliceblue;
+}
+
+.blobBx h2 {
+    font-family: Momcake;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.blobBx h2 span {
+    font-family: Momcake;
+    font-size: 1em;
+    color: rgb(49, 133, 155);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    border: none;
+    padding: .5em 1em;
+    border-radius: 1rem;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnIcon{
+    transform: rotate(-45deg);
+    margin-left: 0.5em;
+    transition: .3s ease;
+}
+
+.companybtn:hover .btnIcon{
+    transform: rotate(0deg);
+}
+
+
+/* Company Content */
+.companyContent {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5em;
+    padding: 2.5em;
+    gap: 4em;
+}
+
+.companyContent h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10em;
+}
+
+.section:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.sectionImage img {
+    height: 500px;
+    width: 500px;
+    border-radius: 2rem;
+}
+
+.sectionContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.sectionContent h2 {
+    font-size: 2.5em;
+}
+
+.sectionContent p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* .workAreas{
+    display: grid;
+    grid-row: inherit;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Assuming you have a container with class 'workAreas' */
+.workAreas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
+    gap: 20px;
+}
+
+
+.area {
+    display: flex;
+    height: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.area:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url(https://images.unsplash.com/photo-1592919347498-69564e361791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbW11bmljYXRpb24lMjBuZXR3b3Jrc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.area h3 {
+    font-size: 2em;
+}
+
+.area img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.area svg {
+    height: 30px;
+    width: 100%;
+}
+
+
+.area p {
+    font-size: 1.1em;
+}

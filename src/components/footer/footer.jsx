@@ -19,12 +19,32 @@ const Footer = ()=>{
                         <img src={logo} alt="" />
                         <p>Passion sparks innovation, kindling boundless creativity.</p>
                     </div>
-                    {/* <div className="company-content">
-                        <div className="research">
-                            <a href="#">White papers</a>
-                            <a href="#">Patents</a>
+                    <div className="company-contents">
+                        <div className="company-content">
+                            <div className="research">
+                                <a href="#">White papers</a>
+                                <a href="#">Patents</a>
+                                <a href="#">Content 1</a>
+                                <a href="#">Content 2</a>
+                            </div>
                         </div>
-                    </div> */}
+                        <div className="company-content">
+                            <div className="research">
+                                <a href="#">White papers</a>
+                                <a href="#">Patents</a>
+                                <a href="#">Content 1</a>
+                                <a href="#">Content 2</a>
+                            </div>
+                        </div>
+                        <div className="company-content">
+                            <div className="research">
+                                <a href="#">White papers</a>
+                                <a href="#">Patents</a>
+                                <a href="#">Content 3</a>
+                                <a href="#">Content 4</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                     <div className="legal">
                         <div className="copy-right">

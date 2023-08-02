@@ -71,19 +71,21 @@ a{
 }
 
 .btn{
+    width: 100%;
     border: none;
     padding: .5em 1em;
     border-radius: 1rem;
-    font-size: 1.1em;
+    font-size: 1em;
     display: flex;
     align-items: center;
     cursor: pointer;
+    gap: .5em;
 }
 
 .btnIcon{
     transform: rotate(-45deg);
-    margin-left: 0.5em;
     transition: .3s ease;
+    font-size: 2em;
 }
 
 .companybtn:hover .btnIcon{
@@ -136,6 +138,7 @@ a{
 .sectionContent p {
     text-align: center;
     font-size: 1.2em;
+    font-weight: 500;
 }
 
 /* .workAreas{
@@ -164,7 +167,7 @@ a{
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
-    transition: all 1s ease-in-out;
+    transition: all 300ms ease-in-out;
     border-radius: 1rem;
     flex-direction: column;
     align-items: center;

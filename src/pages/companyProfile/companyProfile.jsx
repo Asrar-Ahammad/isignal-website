@@ -2,6 +2,10 @@ import "./companyProfile.css"
 import Header from "../../components/header/header"
 import { ArrowDownIcon, FrameIcon, LayersIcon, RocketIcon, PaddingIcon, DesktopIcon, GlobeIcon } from "@radix-ui/react-icons"
 import Footer from "../../components/footer/footer"
+import whoimg from '../../assets/images/who-we.svg'
+import visionimg from '../../assets/images/vision.svg'
+import missionimg from '../../assets/images/mission.svg'
+import coreimg from '../../assets/images/core.svg'
 
 const CompanyProfile = () => {
     return (
@@ -11,7 +15,6 @@ const CompanyProfile = () => {
                 <div className="blob"></div>
                 <div className="blobBx">
                     <h2>Company <span>Profile</span></h2>
-                    {/* <img src="" alt="" /> */}
                     <p>ISRL Research Labs aims to revolutionize wireless communication through 5G product innovation and empowering youth through university research partnerships using expertise in embedded systems, AI and machine learning.</p>
                     <a href="#companyContent">
                         <button className="btn companybtn">
@@ -23,7 +26,7 @@ const CompanyProfile = () => {
             <div className="companyContent" id="companyContent">
                 <div className="section">
                     <div className="sectionImage">
-                        <img src="https://images.unsplash.com/photo-1643228995868-bf698f67d053?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWF0aW9uJTIwc3F1YXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                        <img src={whoimg} alt="" />
                     </div>
                     <div className="sectionContent">
                         <h2>Who we are</h2>
@@ -33,7 +36,7 @@ const CompanyProfile = () => {
 
                 <div className="section">
                     <div className="sectionImage">
-                        <img src="https://images.unsplash.com/photo-1643228995868-bf698f67d053?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWF0aW9uJTIwc3F1YXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                        <img src={visionimg} alt="" />
                     </div>
                     <div className="sectionContent">
                         <h2>Our Vision</h2>
@@ -43,7 +46,7 @@ const CompanyProfile = () => {
 
                 <div className="section">
                     <div className="sectionImage">
-                        <img src="https://images.unsplash.com/photo-1643228995868-bf698f67d053?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWF0aW9uJTIwc3F1YXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                        <img src={missionimg} alt="" />
                     </div>
                     <div className="sectionContent">
                         <h2>Our mission</h2>
@@ -53,7 +56,7 @@ const CompanyProfile = () => {
 
                 <div className="section">
                     <div className="sectionImage">
-                        <img src="https://images.unsplash.com/photo-1643228995868-bf698f67d053?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWF0aW9uJTIwc3F1YXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                        <img src={coreimg} alt="" />
                     </div>
                     <div className="sectionContent">
                         <h2>Our Core Values</h2>

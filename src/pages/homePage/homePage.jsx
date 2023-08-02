@@ -10,7 +10,7 @@ const HomePage = () => {
                 <Header/>
                 <div className="home-page">
                     <div className="home-content">
-                        <h1><span style={{color:"red"}}>i</span>Signal</h1>
+                        <h1><span style={{color:"red"}}>i</span>Signal<sup>®</sup></h1>
                         <p>Passion Innovates</p>
                     </div>
                     <div className="home-content-image">

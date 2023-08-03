@@ -92,9 +92,11 @@ const Header = () => {
                 </div>
 
             </div>
-            <div className="contact">
-                Contact us
-            </div>
+            <Link to='/contact'>
+                <div className="nav-contact">
+                    Contact Us
+                </div>
+            </Link>
         </nav>
 
     );

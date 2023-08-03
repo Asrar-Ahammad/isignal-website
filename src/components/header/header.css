@@ -13,7 +13,7 @@
   gap: 1em;
   justify-content: space-around;
   background-color: rgb(49, 133, 155);
-  padding: 10px ;
+  padding: 10px;
   border-radius: 0.5rem;
   box-shadow: 11px 11px 20px 4px rgba(0, 0, 0, 0.1);
 }
@@ -25,12 +25,14 @@
   color: white;
 }
 
-.nav-link{
+.nav-link {
   color: white;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   color: rgb(193, 227, 236);
 }
+
 .dropdown {
   position: absolute;
   top: 100%;
@@ -65,25 +67,20 @@
   border-radius: 5px;
 }
 
-.subitems{
+.subitems {
   display: none;
   transition: all 2s ease;
   width: max-content;
 }
 
-.dditem:hover .subitems{
+.dditem:hover .subitems {
   display: block;
   position: absolute;
-  left:145px;
+  left: 145px;
   top: -1px;
   background-color: white;
   border-radius: .5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.contact:hover{
-  cursor: pointer;
-  color: rgb(49, 133, 155);
 }
 
 .logo img {
@@ -92,4 +89,14 @@
 
 .logo img:hover {
   cursor: pointer;
+}
+
+.nav-contact {
+  font-size: 1.1rem;
+}
+
+.nav-contact:hover {
+  cursor: pointer;
+  color: rgb(49, 133, 155);
+  text-decoration: underline;
 }

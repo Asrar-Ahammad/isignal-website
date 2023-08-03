@@ -19,14 +19,14 @@ function CareerPages() {
         <div className="conForm">
           <form>
             <input type="text" placeholder='Name' required />
-            <input type="email" placeholder='Email' required />
-            <input type="tel" placeholder='Phone' required />
+            <input type="email" placeholder='you@company.com' required />
+            <input type="tel" placeholder='123-456-7890' required />
             <input type="text" placeholder='Position applying for...' required />
             <div className="resume">
               <label htmlFor="resume">Upload Resumé</label>
               <input type="file" id='resume' required />
             </div>
-            <textarea cols={30} rows={10} />
+            <textarea placeholder="Message..."cols={30} rows={10} />
             <button className='Submitbtn'>Submit</button>
           </form>
         </div>

@@ -173,10 +173,41 @@ a{
     align-items: center;
     justify-content: center;
     gap: .5em;
+    cursor:default;
 }
 
-.area:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url(https://images.unsplash.com/photo-1592919347498-69564e361791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbW11bmljYXRpb24lMjBuZXR3b3Jrc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60);
+.area:nth-child(1):hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url('../../assets//images/soc.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.area:nth-child(2):hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url('../../assets//images/pcb.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.area:nth-child(3):hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url('../../assets//images/ai.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.area:nth-child(4):hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url('../../assets//images/digitalsignal.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.area:nth-child(5):hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url('../../assets//images/embs.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.area:nth-child(6):hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(36, 35, 35, 0.5)), url('../../assets//images/5g:6g.jpg');
     background-position: center;
     background-size: cover;
     color: white;

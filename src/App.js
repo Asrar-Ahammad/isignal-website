@@ -11,6 +11,7 @@ import FiveDev from "./pages/FiveDev/FiveDev";
 import Oran from "./pages/Oran/Oran";
 import Fot from "./pages/Fot/Fot";
 import NewsPage from "./pages/NewsPage/NewsPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 
 function App() {
@@ -51,6 +52,9 @@ function App() {
           </Route>
           <Route path="/news">
             <NewsPage/>
+          </Route>
+          <Route path="/contact">
+            <ContactPage/>
           </Route>
         </Switch>
       </div>

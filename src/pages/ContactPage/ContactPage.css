@@ -1,0 +1,64 @@
+.contactForm{
+    height: fit-content;
+    display: flex;
+    padding: 35px;
+    gap: 2em;
+}
+
+.ContactDetails{
+    flex: 3.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5em 0;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #31859B 0%, #8ccae2 100%);
+    border-radius: 2rem;
+    color: white;
+}
+
+.cont-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.socialCon{
+    display: flex;
+    gap: 1rem;
+}
+.socialCon a{
+    color: white;
+    font-size: 1.25rem;
+    transition: all .5s ease;
+}
+
+.socialCon a:hover{
+    color: #000000;
+}
+.con-section h3{
+    font-size: 1.25rem ;
+}
+
+
+
+.form{
+    flex: 6.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form .name{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+    width: 100%;
+}

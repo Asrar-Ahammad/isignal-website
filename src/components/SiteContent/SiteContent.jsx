@@ -20,7 +20,7 @@ function SiteContent(props) {
           <p>{props.content2}</p>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </>
   )
 }

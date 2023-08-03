@@ -6,19 +6,20 @@ import "./homePage.css"
 
 const HomePage = () => {
     return (
-            <>
-                <Header/>
-                <div className="home-page">
-                    <div className="home-content">
-                        <h1><span style={{color:"red"}}>i</span>Signal<sup>®</sup></h1>
-                        <p>Passion Innovates</p>
-                    </div>
-                    <div className="home-content-image">
-                    </div>
+        <>
+            <Header />
+            <div className="home-page">
+                <div className="home-content">
+                    <h1><span style={{ color: "red" }}>i</span>Signal<sup>®</sup></h1>
+                    <p>Passion Innovates</p>
                 </div>
-                <Services/>
-                <Footer/>
-            </>
+                <div className="home-content-image">
+                </div>
+            </div>
+                <h2 className="homeh2">Why Choose Us</h2>
+            <Services />
+            <Footer />
+        </>
     );
 };
 

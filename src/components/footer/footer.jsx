@@ -1,7 +1,8 @@
 import "./footer.css"
 import logo from "../../assets/images/isignal-logo.png"
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-const Footer = ()=>{
+const Footer = () => {
     return (
         <>
             <div className="footer">
@@ -15,10 +16,12 @@ const Footer = ()=>{
                     </button>
                 </div> */}
                 <div className="footer-content">
-                    <div className="logo-content">
-                        <img src={logo} alt="" />
-                        <p>Passion sparks innovation, kindling boundless creativity.</p>
-                    </div>
+                    <Link to='/'>
+                        <div className="logo-content">
+                            <img src={logo} alt="" />
+                            <p>Passion sparks innovation, kindling boundless creativity.</p>
+                        </div>
+                    </Link>
                     <div className="company-contents">
                         <div className="company-content">
                             <div className="research">
@@ -46,16 +49,16 @@ const Footer = ()=>{
                         </div>
                     </div>
                 </div>
-                    <div className="legal">
-                        <div className="copy-right">
-                            <a href="#">©2024 iSignal</a>
-                        </div>
-                        <div className="terms">
-                            <p>Terms of Service</p>
-                            <p>Privacy Policy</p>
-                            <p>cookies</p>
-                        </div>
+                <div className="legal">
+                    <div className="copy-right">
+                        <a href="#">©2024 iSignal</a>
                     </div>
+                    <div className="terms">
+                        <p>Terms of Service</p>
+                        <p>Privacy Policy</p>
+                        <p>cookies</p>
+                    </div>
+                </div>
             </div>
         </>
     )

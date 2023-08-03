@@ -5,9 +5,11 @@ import "./header.css"
 const Header = () => {
     return (
         <nav className="navbar">
-            <div className="logo">
-                <img src={logo} alt="" />
-            </div>
+            <Link to='/'>
+                <div className="logo">
+                    <img src={logo} alt="" />
+                </div>
+            </Link>
 
             <div className="nav-items">
                 <div className="navbar-item">
@@ -84,7 +86,9 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="navbar-item">
-                    News
+                    <Link to='/news'>
+                        <p className="nav-link">News</p>
+                    </Link>
                 </div>
 
             </div>

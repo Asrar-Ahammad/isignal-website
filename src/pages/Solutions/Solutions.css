@@ -1,0 +1,32 @@
+.sol-section{
+    display: flex;
+}
+
+.sol-section:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.sol-img img{
+    height: 600px;
+    width: 600px;
+}
+
+.sol-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sol-content div{
+    padding: 15px;
+}
+
+.sol-content h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #31859B;
+}
+.sol-content p{
+    font-size: 1.15rem;
+}

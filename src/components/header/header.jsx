@@ -24,37 +24,37 @@ const Header = () => {
                         <Link to="/team">Team</Link>
                     </div>
                 </div>
-                <Link to='/' className="navbar-item">
+                <Link to='/products' className="navbar-item">
                     Wireless Portfolio
                     <div className="dropdown">
                         <Link to="/solutions" className="dditem">Solutions
-                            <div className="subitems">
+                            {/* <div className="subitems">
                                 <Link to='/' className='subdditem'>Health Care</Link>
                                 <Link to='/' className='subdditem'>Education</Link>
                                 <Link to='/' className='subdditem'>Defense</Link>
                                 <Link to='/' className='subdditem'>Agriculture</Link>
                                 <Link to='/' className='subdditem'>Private Enterprises</Link>
-                            </div>
+                            </div> */}
                         </Link>
-                        <Link to="#section2" className="dditem">Technologies
-                            <div className="subitems">
+                        <Link to="/technologies" className="dditem">Technologies
+                            {/* <div className="subitems">
                                 <Link to='/' className='subdditem'>AI</Link>
                                 <Link to='/' className='subdditem'>Embedded Systems</Link>
                                 <Link to='/' className='subdditem'>Soc Chip Design</Link>
                                 <Link to='/' className='subdditem'>Software Defined Radio</Link>
                                 <Link to='/' className='subdditem'>Cloud</Link>
-                            </div>
+                            </div> */}
                         </Link>
-                        <Link to="#section3" className="dditem">Products
-                            <div className="subitems">
+                        <Link to="/products" className="dditem">Products
+                            {/* <div className="subitems">
                                 <Link to='/' className='subdditem'>SDR</Link>
                                 <Link to='/' className='subdditem'>SethuKrite™</Link>
                                 <Link to='/' className='subdditem'>RadOs™</Link>
                                 <Link to='/' className='subdditem'>NAISig™</Link>
-                            </div>
+                            </div> */}
                         </Link>
-                        <Link to="#section3" className="dditem">Research areas
-                            <div className="subitems">
+                        <Link to="/research" className="dditem">Research areas
+                            {/* <div className="subitems">
                                 <Link to='/' className='subdditem'>3gpp</Link>
                                 <Link to='/' className='subdditem'>5G/6G
                                     <Link to='/' className='subdditem'>MassiveMIMO</Link>
@@ -65,7 +65,7 @@ const Header = () => {
                                     <Link to='/' className='subdditem'>Mobility Enhancements</Link>
                                 </Link>
                                 <Link to='/'>Papers and journels</Link>
-                            </div>
+                            </div> */}
                         </Link>
                     </div>
                 </Link>

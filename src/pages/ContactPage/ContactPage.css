@@ -40,7 +40,10 @@
     font-size: 1.25rem ;
 }
 
-
+.con-section a{
+    color: white;
+    font-weight: bold;
+}
 
 .form{
     flex: 6.5;
@@ -61,4 +64,17 @@ form .name{
     justify-content: space-between;
     gap: 0.3rem;
     width: 100%;
+}
+
+.Sentbtn{
+    padding: 15px;
+    width: 50%;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.Sentbtn:hover{
+    background-color: rgb(49,133,155);
+    color: white;
 }

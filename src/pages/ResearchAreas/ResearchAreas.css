@@ -1,0 +1,58 @@
+.research-page {
+    padding: 2rem;
+}
+
+.research-page h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    margin: 30px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.research-section img {
+    height: 400px;
+    width: 500px;
+    border-radius: .5rem;
+}
+
+.research-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.research-content p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.research-section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.research-sub-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    padding:5% 10%;
+    cursor: default;
+    border-radius: 1rem;
+    transition: all .3s;
+}
+
+.research-sub-content h4{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.research-sub-content p{
+    font-size: 1.25rem;
+}
+
+.research-sub-content:hover{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
+}

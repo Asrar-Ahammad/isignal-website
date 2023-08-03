@@ -12,6 +12,10 @@ import Oran from "./pages/Oran/Oran";
 import Fot from "./pages/Fot/Fot";
 import NewsPage from "./pages/NewsPage/NewsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
+import Products from "./pages/Products/Products";
+import Solutions from "./pages/Solutions/Solutions";
+import Technologies from "./pages/Technologies/Technologies";
+import ResearchAreas from "./pages/ResearchAreas/ResearchAreas";
 
 
 function App() {
@@ -55,6 +59,18 @@ function App() {
           </Route>
           <Route path="/contact">
             <ContactPage/>
+          </Route>
+          <Route path="/products">
+            <Products/>
+          </Route>
+          <Route path="/solutions">
+            <Solutions/>
+          </Route>
+          <Route path="/technologies">
+            <Technologies/>
+          </Route>
+          <Route path="/research">
+            <ResearchAreas/>
           </Route>
         </Switch>
       </div>

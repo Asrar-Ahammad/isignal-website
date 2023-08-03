@@ -22,12 +22,12 @@ function ContactPage() {
                         <div className="con-section">
                             <h3>Chat to us</h3>
                             <p>Our friendly team is here to help.</p>
-                            <p>sample@isignal.com</p>
+                            <a href="mailto:isignal@isignal.com">isignal@isignal.com</a>
                         </div>
                         <div className="con-section">
                             <h3>Call us</h3>
                             <p>Mon-Fri from 9am-5pm</p>
-                            <p>(+91) 123-456-7890</p>
+                            <a href="tel:+911234567890">(+91) 123-456-789</a>
                         </div>
                         <div className="con-section">
                             <h3 style={{}}>Social media</h3>

@@ -98,7 +98,9 @@ a {
 }
 
 .companybtn:hover {
+    background-color: rgb(49, 133, 155);
     border: 1px solid white;
+    color: white;
 }
 
 

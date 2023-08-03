@@ -6,6 +6,12 @@ import whoimg from '../../assets/images/who-we.svg'
 import visionimg from '../../assets/images/vision.svg'
 import missionimg from '../../assets/images/mission.svg'
 import coreimg from '../../assets/images/core.svg'
+import soc from '../../assets/images/soc.jpg'
+import pcb from '../../assets/images/pcb.jpg'
+import ai from '../../assets/images/ai.jpg'
+import digitalsignal from '../../assets/images/digitalsignal.jpg'
+import embs from '../../assets/images/embs.jpg'
+import fgsg from '../../assets/images/5g:6g.jpg'
 
 const CompanyProfile = () => {
     return (
@@ -18,7 +24,7 @@ const CompanyProfile = () => {
                     <p>ISRL Research Labs aims to revolutionize wireless communication through 5G product innovation and empowering youth through university research partnerships using expertise in embedded systems, AI and machine learning.</p>
                     <a href="#companyContent">
                         <button className="btn companybtn">
-                            Learn more<ArrowDownIcon className="btnIcon"/>
+                            Learn more<ArrowDownIcon className="btnIcon" />
                         </button>
                     </a>
                 </div>
@@ -67,41 +73,71 @@ const CompanyProfile = () => {
 
                 <h2>Core Objectives</h2>
                 <div className="workAreas">
-                    <div className="area">
-                        <FrameIcon />
-                        <h3>Soc</h3>
-                        <img src="" alt="" />
-                        <p>Integrated circuit containing multiple components on a single chip.</p>
+                    <div className="areaWrapper">
+                        <div className="areaImg">
+                            
+                        </div>
+
+                        <div className="area">
+                            <FrameIcon />
+                            <h3>Soc</h3>
+                            <p>Integrated circuit containing multiple components on a single chip.</p>
+                        </div>
                     </div>
-                    <div className="area">
-                        <LayersIcon />
-                        <h3>VLSI/PCB Design</h3>
-                        <img src="" alt="" />
-                        <p>Electronic circuit design on microchips or printed circuit boards (PCBs).</p>
+                    <div className="areaWrapper">
+                        <div className="areaImg">
+                           
+                        </div>
+
+                        <div className="area">
+                            <LayersIcon />
+                            <h3>VLSI/PCB Design</h3>
+                            <p>Electronic circuit design on microchips or printed circuit boards (PCBs).</p>
+                        </div>
                     </div>
-                    <div className="area">
-                        <RocketIcon />
-                        <h3>AI/IOT</h3>
-                        <img src="" alt="" />
-                        <p>AI enhances IoT with intelligent automation, enabling smart connected devices.</p>
+                    <div className="areaWrapper">
+                        <div className="areaImg">
+                           
+                        </div>
+
+                        <div className="area">
+                            <RocketIcon />
+                            <h3>AI/IOT</h3>
+                            <p>AI enhances IoT with intelligent automation, enabling smart connected devices.</p>
+                        </div>
                     </div>
-                    <div className="area">
-                        <PaddingIcon />
-                        <h3>Digital Signal Processing</h3>
-                        <img src="" alt="" />
-                        <p>Mathematical manipulation of signals for analysis and transmission in electronics.</p>
+                    <div className="areaWrapper">
+                        <div className="areaImg">
+
+                        </div>
+
+                        <div className="area">
+                            <PaddingIcon />
+                            <h3>Digital Signal Processing</h3>
+                            <p>Mathematical manipulation of signals for analysis and transmission in electronics.</p>
+                        </div>
                     </div>
-                    <div className="area">
-                        <DesktopIcon />
-                        <h3>Embedded Systems</h3>
-                        <img src="" alt="" />
-                        <p>Compact computers in devices for specific tasks; self-contained functionalities.</p>
+                    <div className="areaWrapper">
+                        <div className="areaImg">
+
+                        </div>
+
+                        <div className="area">
+                            <DesktopIcon />
+                            <h3>Embedded Systems</h3>
+                            <p>Compact computers in devices for specific tasks; self-contained functionalities.</p>
+                        </div>
                     </div>
-                    <div className="area">
-                        <GlobeIcon />
-                        <h3>4G-LTE/5G-NR</h3>
-                        <img src="" alt="" />
-                        <p>4G-LTE: Fourth-generation wireless.<br />5G-NR: faster data, low latency.</p>
+                    <div className="areaWrapper">
+                        <div className="areaImg">
+                            
+                        </div>
+
+                        <div className="area">
+                            <GlobeIcon />
+                            <h3>4G-LTE/5G-NR</h3>
+                            <p>4G-LTE: Fourth-generation wireless.5G-NR: faster data, low latency.</p>
+                        </div>
                     </div>
                 </div>
             </div>

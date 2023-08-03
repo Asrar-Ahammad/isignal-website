@@ -16,7 +16,8 @@ const HomePage = () => {
                 <div className="home-content-image">
                 </div>
             </div>
-                <h2 className="homeh2">Why Choose Us</h2>
+            {/* <h2 className="homeh2" style={{marginTop:'7rem'}}>Why Choose Us</h2> */}
+            <h2 className="homeh2">Why Choose Us</h2>
             <Services />
             <Footer />
         </>

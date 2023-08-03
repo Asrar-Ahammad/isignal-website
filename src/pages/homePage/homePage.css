@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    /* min-height: fit-content; */
     min-height: 105vh;
     gap: 25rem;
     padding: 0 0 0 120px;
@@ -52,8 +53,4 @@ h1 sup {
     text-align: center;
     font-size: 4rem;
     cursor:default;
-}
-
-.homeh2:hover{
-    color: rgb(49, 133, 155);
 }

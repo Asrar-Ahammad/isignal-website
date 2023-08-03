@@ -28,10 +28,12 @@
 
 .ContentDesc h3{
     font-size: 4em;
+    color: rgb(49,133,155);
 }
 
 .ContentDesc h5{
     font-size: 2em;
+    color: darkred;
 }
 
 .ContentDesc p{

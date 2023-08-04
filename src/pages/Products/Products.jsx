@@ -1,7 +1,7 @@
 import React from 'react'
+import './Products.css'
 import Header from '../../components/header/header'
 import Footer from "../../components/footer/footer";
-import './Products.css'
 import sdrimg from '../../assets/images/sdr.svg'
 import setuimg from '../../assets/images/setu.svg'
 import radimg from '../../assets/images/os.svg'

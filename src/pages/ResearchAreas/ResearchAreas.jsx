@@ -3,20 +3,21 @@ import './ResearchAreas.css'
 import Header from '../../components/header/header'
 import Footer from "../../components/footer/footer";
 import gpImg from '../../assets/images/mobile.jpg'
+import {BsArrowDownCircleFill} from 'react-icons/bs'
 
 function ResearchAreas() {
     return (
         <>
             <Header />
             <div className="research-page">
-                <h2>3GPP: Shaping Global Mobile Communication Standards for Seamless Connectivity</h2>
+                <h2 id='3gpp'>3GPP: Shaping Global Mobile Communication Standards for Seamless Connectivity</h2>
                 <div className="research-section">
                     <div className="research-content">
                         <p>The 3rd Generation Partnership Project (3GPP) is a collaborative global initiative that develops and standardizes mobile communication technologies. Comprising leading telecommunications organizations, 3GPP defines specifications for wireless networks, including 5G, 4G LTE, and earlier generations. It addresses areas like network architecture, protocols, and system interfaces, ensuring interoperability and consistent performance across devices and networks. Through iterative releases, 3GPP drives technological advancements, enabling seamless communication, data transfer, and services worldwide. Its work underpins the evolution of mobile connectivity, fostering innovation and enhancing the way individuals and industries interact, communicate, and access information in our increasingly interconnected world.</p>
                         <img src={gpImg} alt="" />
                     </div>
                 </div>
-                <h2>5G Technology: Transforming Industries and Redefining Possibilities</h2>
+                <h2 id='fiveG'>5G Technology: Transforming Industries and Redefining Possibilities</h2>
                 <div className="research-section2">
                     <div className='research-sub-content'>
                         <h4>MassiveMIMO</h4>
@@ -43,7 +44,7 @@ function ResearchAreas() {
                         <p>Mobility enhancements optimize seamless movement across wireless networks. They ensure uninterrupted connectivity by enabling efficient handovers between cells or access points, enhancing user experiences during transitions. These improvements contribute to reliable and smooth mobility for users in dynamic environments, such as vehicular or IoT applications.</p>
                     </div>
                 </div>
-                <h2>Papers and journels</h2>
+                <h2 id='papers'>Papers and journels</h2>
                 <div className="research-section2">
                     <div className='research-sub-content'>1</div>
                     <div className='research-sub-content'>2</div>

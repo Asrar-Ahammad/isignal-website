@@ -6,8 +6,7 @@
     text-align: center;
     font-size: 2.25rem;
     margin: 30px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 30px;
 }
 
 .research-section img {
@@ -25,6 +24,7 @@
 .research-content p {
     font-size: 1.25rem;
     line-height: 2rem;
+    padding: 30px;
 }
 
 .research-section2 {
@@ -37,22 +37,22 @@
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
-    padding:5% 10%;
+    padding: 5% 10%;
     cursor: default;
     border-radius: 1rem;
     transition: all .3s;
 }
 
-.research-sub-content h4{
+.research-sub-content h4 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
-.research-sub-content p{
+.research-sub-content p {
     font-size: 1.25rem;
 }
 
-.research-sub-content:hover{
+.research-sub-content:hover {
     color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
 }

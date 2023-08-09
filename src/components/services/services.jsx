@@ -1,5 +1,4 @@
 import "./services.css";
-import SampServices from "./sampServices";
 import { useState } from "react";
 
 const Services = ({accordionData}) => {

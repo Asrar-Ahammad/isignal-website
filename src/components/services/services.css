@@ -22,6 +22,7 @@
 .serviceAcc h2{
     transform: rotate(-90deg);
     color: aliceblue;
+    margin-bottom: 1rem;
 }
 
 .serviceAcc p{

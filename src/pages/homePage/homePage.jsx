@@ -31,6 +31,8 @@ const accordionData = [
     }
 ]
 
+
+
 const HomePage = () => {
     return (
         <>

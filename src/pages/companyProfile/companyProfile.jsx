@@ -6,12 +6,6 @@ import whoimg from '../../assets/images/who-we.svg'
 import visionimg from '../../assets/images/vision.svg'
 import missionimg from '../../assets/images/mission.svg'
 import coreimg from '../../assets/images/core.svg'
-import soc from '../../assets/images/soc.jpg'
-import pcb from '../../assets/images/pcb.jpg'
-import ai from '../../assets/images/ai.jpg'
-import digitalsignal from '../../assets/images/digitalsignal.jpg'
-import embs from '../../assets/images/embs.jpg'
-import fgsg from '../../assets/images/5g:6g.jpg'
 
 const CompanyProfile = () => {
     return (

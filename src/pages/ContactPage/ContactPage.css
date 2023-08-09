@@ -78,3 +78,43 @@ form .name{
     background-color: rgb(49,133,155);
     color: white;
 }
+
+@media screen and (max-width:800px) {
+    .contactForm{
+        flex-direction: column-reverse;
+    }
+
+    .ContactDetails{
+        margin: 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    .ContactDetails{
+        margin: 0.1rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .ContactDetails h3 {
+        font-size: 1rem;
+    }
+
+    .ContactDetails p {
+        font-size: 0.8rem;
+    }
+
+    .con-section h3 {
+        margin-bottom: 0.3rem;
+    }
+
+    .con-section .socialCon {
+        gap: 0.8rem;
+    }
+
+    .socialCon a{
+        font-size: 0.8rem;
+    }
+
+}

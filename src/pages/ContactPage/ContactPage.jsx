@@ -30,7 +30,7 @@ function ContactPage() {
                             <a href="tel:+911234567890">(+91) 123-456-789</a>
                         </div>
                         <div className="con-section">
-                            <h3 style={{}}>Social media</h3>
+                            <h3>Social media</h3>
                             <div className="socialCon">
                                 <a href=""><BsLinkedin /></a>
                                 <a href="https://twitter.com/isignalresearch"><BsTwitter /></a>

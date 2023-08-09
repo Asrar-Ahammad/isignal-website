@@ -2,14 +2,14 @@
 
 .home-page {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 4rem;
+    position: relative;
     width: 100%;
-    /* min-height: fit-content; */
-    min-height: 105vh;
-    gap: 25rem;
-    padding: 0 0 0 120px;
+    height: 80vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/videos/home-video.mp4') center/cover no-repeat fixed;
 }
 
 html,
@@ -17,23 +17,13 @@ body {
     scroll-behavior: smooth;
 }
 
-.home-page .home-content-image {
-    width: 40rem;
-    height: 40rem;
-    margin-bottom: 0;
-    overflow: hidden;
-    background-image: url("https://images.unsplash.com/photo-1545987796-200677ee1011?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
-    background-position: center;
-    background-size: cover;
-    border-top-left-radius: 100%;
-}
-
-
 .home-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex: 5;
+    z-index: 1;
 }
 
 .home-content h1 {
@@ -52,5 +42,31 @@ h1 sup {
 .homeh2 {
     text-align: center;
     font-size: 4rem;
-    cursor:default;
+}
+
+/* ------------------------media queries-------------------------- */
+
+@media screen and (max-width:770px) {
+    .home-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70vh;
+        gap: 3rem;
+    }
+
+    .home-content-image img {
+        display: none;
+    }
+
+    .homeh2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .homeh2 {
+        font-size: 2rem;
+    }
 }

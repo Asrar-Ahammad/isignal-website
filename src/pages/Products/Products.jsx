@@ -47,8 +47,8 @@ function Products() {
                     </div>
                 </div>
                 <div className="product-section" id='rad'>
-                    <h3>RadOs™</h3>
-                    <h4>RadOS: Next-Gen Real-Time Operating System</h4>
+                    <h3>Rads™</h3>
+                    <h4>RadOs: Next-Gen Real-Time Operating System</h4>
                     <div className="product-content">
                         <img src={radimg} alt="" />
                         <p>RadOS is a cutting-edge real-time operating system (RTOS) designed for seamless embedded systems. It offers real-time performance, low footprint, and advanced middleware, empowering efficient development of IoT devices, industrial automation, and more. Experience the power of RadOS and unlock the potential of your embedded projects. Embrace the future of RTOS with RadOS today!</p>

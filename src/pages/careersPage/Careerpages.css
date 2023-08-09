@@ -4,7 +4,7 @@
 }
 
 form{
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,4 +79,15 @@ textarea{
 .Submitbtn:hover{
     background-color: rgb(49,133,155);
     color: white;
+}
+
+@media screen and (max-width: 770px){
+    .formContainer {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .conForm {
+        margin: 10px;
+    }
 }

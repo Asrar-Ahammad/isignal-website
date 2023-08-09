@@ -30,3 +30,12 @@
 .sol-content p{
     font-size: 1.15rem;
 }
+
+@media screen and (max-width:770px) {
+    .sol-section{
+        flex-direction: column-reverse;
+    }
+    .sol-section:nth-child(2n){
+        flex-direction: column-reverse;
+    }
+}

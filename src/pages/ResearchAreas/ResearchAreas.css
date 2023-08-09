@@ -11,7 +11,7 @@
 
 .research-section img {
     height: 400px;
-    width: 500px;
+    width: 100%;
     border-radius: .5rem;
 }
 
@@ -32,6 +32,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 
 .research-sub-content {
     border: 1px solid #ccc;
@@ -55,4 +56,49 @@
 .research-sub-content:hover {
     color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
+}
+
+@media screen and (max-width:770px) {
+    .research-content {
+        flex-direction: column-reverse;
+    }
+    .research-section2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .research-page h2 {
+        text-align: center;
+        font-size: 2.25rem;
+        margin: 10px 0;
+    }
+    .research-content p{
+        padding: 15px;
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+    .research-sub-content p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:450px){
+    .research-sub-content h4 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+    .research-page h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .research-content p{
+        padding: 15px;
+        font-size: 1.12rem;
+        line-height: normal;
+    }
+    .research-sub-content p {
+        font-size: 1.12rem;
+    }
 }

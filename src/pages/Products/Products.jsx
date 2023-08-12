@@ -31,7 +31,7 @@ function Products() {
                     </div>
                 </div>
                 <div className="product-section" id='sdr'>
-                    <h3>SDR</h3>
+                    <h3>6G AI SDR</h3>
                     <h4>SDR: Revolutionizing Wireless Communication</h4>
                     <div className="product-content">
                         <img src={sdrimg} alt="" />

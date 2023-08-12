@@ -30,7 +30,7 @@ const CompanyProfile = () => {
                     </div>
                     <div className="sectionContent">
                         <h2>Who we are</h2>
-                        <p>We are a team of highly skilled professionals with extensive experience of over 15 years in various domains. Our expertise lies in driving innovation in product development, ensuring top-notch quality and cutting-edge solutions.</p>
+                        <p>iSignal Research Labs Pvt. Ltd is a 6 Year Old Indian based Wireless Startup, Bangalore who involved in innovative wireless 4G and 5G technology creating the industry impactful AI-Native and AI-Enabled RAN solutions to integrate with the hardware vendors. Also involved in competency development in the area of the protocol stack development with the involvement of small cell base station with the cost-effective Software Defined Radio and Cloud Variants of 4G and 5G Solutions. Extensively contributing for 6G Research and Standardization by working on inspiring innovations in the Field like Embedded, DSP, IoT, AI, ML, and DL Fields for various business Use cases targeting Indian and International Markets.</p>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ const CompanyProfile = () => {
                     </div>
                     <div className="sectionContent">
                         <h2>Our Vision</h2>
-                        <p>Our goal is to establish ourselves as the frontrunners in the 5G industry, catering to both the Indian and international markets. We specialize in IoT, Embedded Systems, and DSP Systems, offering comprehensive R&D solutions in the field of Signal Processing.</p>
+                        <p>To Be the Top Leader and Contribute to the Wireless Industry and transform the lives we live in the connectivity world.</p>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ const CompanyProfile = () => {
                     </div>
                     <div className="sectionContent">
                         <h2>Our mission</h2>
-                        <p>Our mission is to make significant contributions to society by providing innovative wireless solutions in the telecom space, with a particular focus on wireless technologies. We aim to be the preferred choice for competency development in the corporate, academic, and R&D sectors, specifically in the realm of next-generation 5G and 6G solutions.</p>
+                        <p>To be the Best Class of Choice for Customers in Various 4G and 5G End to End Solutions in Wireless Space in Both Indian and International Market Independently to create a mark in the Industry.</p>
                     </div>
                 </div>
 

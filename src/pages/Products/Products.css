@@ -91,6 +91,7 @@
 .product-content p {
     font-size: 1.4rem;
     line-height: 2rem;
+    flex:6;
 }
 
 .product-content p::first-letter {
@@ -101,6 +102,7 @@
 .product-content img {
     height: 600px;
     width: 100%;
+    flex:4;
 }
 
 @media screen and (max-width:770px) {

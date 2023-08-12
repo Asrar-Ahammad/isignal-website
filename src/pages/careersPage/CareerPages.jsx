@@ -12,8 +12,8 @@ function CareerPages() {
       <div className="formContainer">
         <div className="contactDetails">
           <div className="heading"><AiFillPhone />Contact Us</div>
-          <p>Call : <a href="tel:+911234567890">+91 123-456-789</a></p>
-          <p>email : <a href="mailto:isignal@isignal.com">isignal@isignal.com</a></p>
+          <p><span style={{fontWeight:"bold"}}>Call : </span> <a href="tel:+911234567890">+91 123-456-789</a></p>
+          <p><span style={{fontWeight:"bold"}}>Email : </span> <a href="mailto:careers@isignalresearch.com">careers@isignalresearch.com</a></p>
           <img src={image} alt="" />
         </div>
         <div className="conForm">

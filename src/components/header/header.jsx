@@ -8,9 +8,9 @@ import { RiCloseLine } from 'react-icons/ri'
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleToggleMenu = () => {
-    setIsMenuOpen(prevState => !prevState);
-  };
+    const handleToggleMenu = () => {
+        setIsMenuOpen(prevState => !prevState);
+    };
     return (
         <>
             <nav className="navbar">
@@ -45,51 +45,31 @@ const Header = () => {
                             </div> */}
                             </Link>
                             <Link to="/technologies" className="dditem">Technologies
-                                {/* <div className="subitems">
-                                <Link to='/' className='subdditem'>AI</Link>
-                                <Link to='/' className='subdditem'>Embedded Systems</Link>
-                                <Link to='/' className='subdditem'>Soc Chip Design</Link>
-                                <Link to='/' className='subdditem'>Software Defined Radio</Link>
-                                <Link to='/' className='subdditem'>Cloud</Link>
-                            </div> */}
                             </Link>
                             <Link to="/products" className="dditem">Products
-                                {/* <div className="subitems">
-                                <Link to='/' className='subdditem'>SDR</Link>
-                                <Link to='/' className='subdditem'>SethuKrite™</Link>
-                                <Link to='/' className='subdditem'>RadOs™</Link>
-                                <Link to='/' className='subdditem'>NAISig™</Link>
-                            </div> */}
+                                <div className="subitems">
+                                    <Link to='/' className='subdditem'>Non Cloud based Solutions
+                                        <Link to='/fourGncloud'>4G Solutions</Link>
+                                        <Link to='/fiveGncloud'>5G Solutions</Link>
+                                    </Link>
+                                    <Link to='/' className='subdditem'>Cloud based Solutions
+                                        <Link to='/fourGcloud'>4G Solutions</Link>
+                                        <Link to='/fiveGcloud'>5G Solutions</Link>
+                                    </Link>
+                                </div>
                             </Link>
                             <Link to="/research" className="dditem">Research areas
-                                {/* <div className="subitems">
-                                <Link to='/' className='subdditem'>3gpp</Link>
-                                <Link to='/' className='subdditem'>5G/6G
-                                    <Link to='/' className='subdditem'>MassiveMIMO</Link>
-                                    <Link to='/' className='subdditem'>Beamforming</Link>
-                                    <Link to='/' className='subdditem'>AI/ML</Link>
-                                    <Link to='/' className='subdditem'>Channel Modeling</Link>
-                                    <Link to='/' className='subdditem'>L2 Lean Protocol</Link>
-                                    <Link to='/' className='subdditem'>Mobility Enhancements</Link>
-                                </Link>
-                                <Link to='/'>Papers and journels</Link>
-                            </div> */}
                             </Link>
                         </div>
                     </div>
                     <div className="navbar-item">
                         Knowledge Center
                         <div className="dropdown">
-                            <Link to="/FGD">4G RAN Domain</Link>
-                            <Link to="/FG">4G Development</Link>
-                            <Link to="/FivGD">5G RAN Domain</Link>
-                            <Link to="/FivGDev">5G Development</Link>
-                            <Link to="/ORAN">O-RAN</Link>
-                            <Link to="/Fot">FOT</Link>
+                            <Link to="/">iSignal Learning</Link>
                         </div>
                     </div>
                     <div className="navbar-item">
-                        <Link to='career'>
+                        <Link to='/jobs'>
                             <p className="nav-link">Career</p>
                         </Link>
                     </div>
@@ -119,45 +99,73 @@ const Header = () => {
                     <div className="menu-items">
                         <div className="menu-item">
                             <Link to='/'>
-                            <h5>Home</h5>
+                                <h5>Home</h5>
                             </Link>
                         </div>
                         <div className="menu-item">
                             <h5>Company</h5>
                             <div className="menu-sub-item">
                                 <Link to='/companyProfile'>
-                                About us
+                                    <div className="menu-content">About us</div>
                                 </Link></div>
                             <div className="menu-sub-item">
-                                <Link></Link>
-                                Team</div>
+                                <Link to='/'>
+                                <div className="menu-content">Team</div>
+                                </Link>
+                            </div>
                         </div>
                         <div className="menu-item">
                             <h5>Wireless Profolio</h5>
-                            <div className="menu-sub-item">About us</div>
-                            <div className="menu-sub-item">Solutions</div>
-                            <div className="menu-sub-item">Technologies</div>
-                            <div className="menu-sub-item">Products</div>
-                            <div className="menu-sub-item">Research Areas</div>
+                            <div className="menu-sub-item">
+                                <Link to='/solutions'>
+                                <div className="menu-content">Solutions</div>
+                                    </Link>
+                            </div>
+                            <div className="menu-sub-item">
+                                <Link to='/technologies'>
+                                <div className="menu-content">Technologies</div>
+                                    </Link>
+                            </div>
+                            <div className="menu-sub-item">
+                                <Link to='/products'>
+                                <div className="menu-content">Products</div>
+                                    </Link>
+                                <div className="semi-sub">
+                                    <Link to='/fourGcloud'>
+                                    <div className="menu-content">4G Cloud based solutions</div>
+                                        </Link><br />
+                                    <Link to='/fiveGcloud'>
+                                    <div className="menu-content">5G Cloud based solutions</div>
+                                        </Link><br />
+                                    <Link to='/fourGncloud'>
+                                    <div className="menu-content">4G Non Cloud based solutions</div>
+                                        </Link><br />
+                                    <Link to='/fiveGncloud'>
+                                    <div className="menu-content">5G Non Cloud based solutions</div>
+                                        </Link>
+                                </div>
+                            </div>
+                            <div className="menu-sub-item">
+                                <Link to='/research'>
+                                <div className="menu-content">Research Areas</div>
+                                    </Link>
+                            </div>
                         </div>
                         <div className="menu-item">
                             <h5>Knowledge Center</h5>
-                            <div className="menu-sub-item">About us</div>
-                            <div className="menu-sub-item">4G RAN Domain</div>
-                            <div className="menu-sub-item">4G Development</div>
-                            <div className="menu-sub-item">5G RAN Domain</div>
-                            <div className="menu-sub-item">5G Development</div>
-                            <div className="menu-sub-item">O-RAN</div>
-                            <div className="menu-sub-item">FOT</div>
+                            <Link to='/'>
+                            <div className="menu-content">iSignal Learning</div>
+                                </Link>
+
                         </div>
                         <div className="menu-item">
-                            <h5>Career</h5>
+                        <Link to='/jobs'><h5>Career</h5></Link>
                         </div>
                         <div className="menu-item">
-                            <h5>News</h5>
+                        <Link to='/news'><h5>News</h5></Link>
                         </div>
                         <div className="menu-item">
-                            <h5>Contact us</h5>
+                        <Link to='/contact'><h5>Contact us</h5></Link>
                         </div>
                     </div>
                 </div>
@@ -166,10 +174,3 @@ const Header = () => {
     );
 }
 export default Header;
-
-// const mainColor = 'rgb(49,133,155)';
-// const largeFont = '14px';
-// const mediumFont = '12px';
-// const smallFont = '11px';
-// const lightFont = '300';
-// const heavyFont = '600';

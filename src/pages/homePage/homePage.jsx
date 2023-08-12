@@ -1,8 +1,9 @@
+import "./homePage.css"
 import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
 import Services from "../../components/services/services";
-import "./homePage.css"
 import video from '../../assets/videos/home-video.mp4'
+import TimeLine from "../../components/TimeLine/TimeLine";
 
 const accordionData = [
     {
@@ -31,30 +32,27 @@ const accordionData = [
     }
 ]
 
-
-
 const HomePage = () => {
     return (
         <>
             <Header />
             <div className="home-page">
-                {/* <video
-                    id="background-video"
-                    autoPlay=""
-                    loop=""
-                    muted=""
-                    poster="https://assets.codepen.io/6093409/river.jpg">
+                <video className="video-background" autoPlay loop muted>
                     <source src={video} type="video/mp4" />
-                </video> */}
+                </video>
                 <div className="home-content">
                     <div>
-                        <h1><span style={{ color: "#C10000" }}>i</span>Signal<sup>®</sup></h1>
-                        <p>Passion Innovates</p>
+                        <h1 className="home-h1">
+                            <span style={{ color: "#C10000" }}>i</span>Signal<sup>®</sup>
+                        </h1>
                     </div>
                 </div>
             </div>
-            <h2 className="homeh2" style={{ marginBottom: "2rem" }}>Why Choose Us</h2>
+
+            <h2 className="homeh2" style={{ margin: "3rem" }}>Why Choose Us</h2>
             <Services accordionData={accordionData} />
+            <h2 className="homeh2" style={{ margin: "3rem" }}>iSignal Journey</h2>
+            <TimeLine />
             <Footer />
         </>
     );

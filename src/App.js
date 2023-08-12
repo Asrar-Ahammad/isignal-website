@@ -3,18 +3,17 @@ import { Route, BrowserRouter as Router } from "react-router-dom";
 import { Switch } from "react-router-dom/cjs/react-router-dom.min"
 import CompanyProfile from "./pages/companyProfile/companyProfile";
 import CareerPages from "./pages/careersPage/CareerPages";
-import FourGRANDomain from "./pages/FourGRANDomain/FourGRANDomain";
-import FourDev from "./pages/FourDev/FourDev";
-import FiveGRAN from "./pages/FiveGRAN/FiveGRAN";
-import FiveDev from "./pages/FiveDev/FiveDev";
-import Oran from "./pages/Oran/Oran";
-import Fot from "./pages/Fot/Fot";
 import NewsPage from "./pages/NewsPage/NewsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import Products from "./pages/Products/Products";
 import Solutions from "./pages/Solutions/Solutions";
 import Technologies from "./pages/Technologies/Technologies";
 import ResearchAreas from "./pages/ResearchAreas/ResearchAreas";
+import Jobs from "./pages/jobs/jobs";
+import Fgcloud from "./pages/fgcloud/Fgcloud";
+import Figncloud from "./pages/figncloud/Figncloud";
+import FourGcloud from "./pages/FourGCLoud/FourGcloud";
+import FiveGCloud from "./pages/FIveGCloud/FiveGCloud";
 
 
 function App() {
@@ -29,29 +28,14 @@ function App() {
           <Route path="/companyProfile">
             <CompanyProfile />
           </Route>
-          <Route path="/career">
-            <CareerPages />
+          <Route path="/jobs">
+            <Jobs/>
+          </Route>
+          <Route path="/careers">
+            <CareerPages/>
           </Route>
           <Route path="/team">
             <HomePage/>
-          </Route>
-          <Route path="/FGD">
-            <FourGRANDomain/>
-          </Route>
-          <Route path="/FG">
-            <FourDev/>
-          </Route>
-          <Route path="/FivGD">
-            <FiveGRAN/>
-          </Route>
-          <Route path="/FivGDev">
-            <FiveDev/>
-          </Route>
-          <Route path="/ORAN">
-            <Oran/>
-          </Route>
-          <Route path="/FOT">
-            <Fot/>
           </Route>
           <Route path="/news">
             <NewsPage/>
@@ -70,6 +54,18 @@ function App() {
           </Route>
           <Route path="/research">
             <ResearchAreas/>
+          </Route>
+          <Route path="/fourGncloud">
+            <Fgcloud/>
+          </Route>
+          <Route path="/fiveGncloud">
+            <Figncloud/>
+          </Route>
+          <Route path="/fourGcloud">
+            <FourGcloud/>
+          </Route>
+          <Route path="/fiveGcloud">
+            <FiveGCloud/>
           </Route>
         </Switch>
       </div>

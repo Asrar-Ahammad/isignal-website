@@ -2,11 +2,11 @@ import React from 'react'
 import './Solutions.css'
 import Header from '../../components/header/header'
 import Footer from "../../components/footer/footer";
-import medImg from '../../assets/images/med.svg';
-import eduImg from '../../assets/images/education.svg';
-import defImg from '../../assets/images/defence.svg';
-import agrImg from '../../assets/images/farmer.svg';
-import priImg from '../../assets/images/private.svg'
+import medImg from '../../assets/images/healthcare1.jpg';
+import eduImg from '../../assets/images/education.jpg';
+import defImg from '../../assets/images/defence.jpg';
+import agrImg from '../../assets/images/farm.jpg';
+import priImg from '../../assets/images/privateEnt.jpg'
 
 function Solutions() {
     return (
@@ -25,7 +25,7 @@ function Solutions() {
                         </div>
                     </div>
                     <div className="sol-img">
-                        <img src={medImg} alt="" />
+                        <img src={medImg} alt="" loading='lazy'/>
                     </div>
                 </div>
                 <div className="sol-section">
@@ -36,7 +36,7 @@ function Solutions() {
                         </div>
                     </div>
                     <div className="sol-img">
-                        <img src={eduImg} alt="" />
+                        <img src={eduImg} alt="" loading='lazy'/>
                     </div>
                 </div>
                 <div className="sol-section">
@@ -47,7 +47,7 @@ function Solutions() {
                         </div>
                     </div>
                     <div className="sol-img">
-                        <img src={defImg} alt="" />
+                        <img src={defImg} alt="" loading='lazy'/>
                     </div>
                 </div>
                 <div className="sol-section">
@@ -58,7 +58,7 @@ function Solutions() {
                         </div>
                     </div>
                     <div className="sol-img">
-                        <img src={agrImg} alt="" />
+                        <img src={agrImg} alt="" loading='lazy'/>
                     </div>
                 </div>
                 <div className="sol-section">
@@ -69,7 +69,7 @@ function Solutions() {
                         </div>
                     </div>
                     <div className="sol-img">
-                        <img src={priImg} alt="" />
+                        <img src={priImg} alt="" loading='lazy'/>
                     </div>
                 </div>
             </div>

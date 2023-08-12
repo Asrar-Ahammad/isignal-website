@@ -11,8 +11,8 @@ const Services = ({accordionData}) => {
         <>
         <div className="serviceWrapper">
             {accordionData.map((a,index)=>(
-                <div className="serviceAcc"style={selected===index ? {width:"450px"}: {width:"100px", justifyContent:"center", alignItems:"center"}} onClick={()=>handleChange(index)} key={index}>
-                    <h2 style={selected===index ? {transform:"rotate(0deg)"}:{transform:"rotate(-90deg)"}}>{a.heading}</h2>
+                <div className="serviceAcc"style={selected===index ? {width:"550px"}: {height:"100px", justifyContent:"center", alignItems:"center"}} onClick={()=>handleChange(index)} key={index}>
+                    <h2>{a.heading}</h2>
                     {
                         selected===index&&(
                             <p>{a.desc}</p>

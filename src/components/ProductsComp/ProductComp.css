@@ -1,0 +1,17 @@
+.intro-pro{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-pro h2{
+    font-size: 5rem;
+    text-align: center;
+}
+
+@media screen and (max-width:770px) {
+    .intro-pro h2{
+        font-size: 4rem;
+    }
+}

@@ -121,9 +121,6 @@
 }
 
 @media screen and (max-width:450px) {
-    .prod-img img {
-        /* height: 300px; */
-    }
 
     .product-content p {
         width: 100%;

@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../../components/header/header'
 import Footer from "../../components/footer/footer";
 import './ContactPage.css'
-import { TwitterLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 import { BsFacebook, BsTwitter, BsYoutube, BsWhatsapp, BsLinkedin, BsMicrosoftTeams } from 'react-icons/bs';
 
 function ContactPage() {

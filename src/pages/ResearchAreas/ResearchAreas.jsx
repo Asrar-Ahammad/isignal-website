@@ -3,7 +3,6 @@ import './ResearchAreas.css'
 import Header from '../../components/header/header'
 import Footer from "../../components/footer/footer";
 import gpImg from '../../assets/images/mobile.jpg'
-import {BsArrowDownCircleFill} from 'react-icons/bs'
 
 function ResearchAreas() {
     return (

@@ -36,13 +36,6 @@ const Header = () => {
                         Wireless Portfolio
                         <div className="dropdown">
                             <Link to="/solutions" className="dditem">Solutions
-                                {/* <div className="subitems">
-                                <Link to='/' className='subdditem'>Health Care</Link>
-                                <Link to='/' className='subdditem'>Education</Link>
-                                <Link to='/' className='subdditem'>Defense</Link>
-                                <Link to='/' className='subdditem'>Agriculture</Link>
-                                <Link to='/' className='subdditem'>Private Enterprises</Link>
-                            </div> */}
                             </Link>
                             <Link to="/technologies" className="dditem">Technologies
                             </Link>

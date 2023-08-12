@@ -1,6 +1,5 @@
 import "./footer.css"
 import logo from "../../assets/images/isignal-logo.png"
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Footer = () => {
     return (

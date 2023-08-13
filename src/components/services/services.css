@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 .serviceAcc{
-    border:1px solid black;
+    border-radius: 2rem;
     height: 400px;
     width: 550px;
     display: flex;

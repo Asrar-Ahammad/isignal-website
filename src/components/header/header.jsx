@@ -102,7 +102,7 @@ const Header = () => {
                                     <div className="menu-content">About us</div>
                                 </Link></div>
                             <div className="menu-sub-item">
-                                <Link to='/'>
+                                <Link to='/team'>
                                 <div className="menu-content">Team</div>
                                 </Link>
                             </div>

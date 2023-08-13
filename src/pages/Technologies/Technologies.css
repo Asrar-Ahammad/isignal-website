@@ -33,3 +33,14 @@
         flex-direction: column-reverse;
     }
 }
+
+@media screen and (max-width:500px) {
+    .tech-section{
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+    .tech-content div{
+        padding: 10px;
+        flex: 7;
+    }
+}

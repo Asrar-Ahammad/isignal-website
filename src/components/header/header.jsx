@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from 'react-router-dom';
 import logo from "../../assets/images/isignal-logo.png";
 import "./header.css"
 import { HiMenuAlt1 } from 'react-icons/hi'
@@ -41,7 +41,7 @@ const Header = () => {
                             </Link>
                             <Link to="/products" className="dditem">Products
                                 <div className="subitems">
-                                    <Link to='/' className='subdditem'>Non Cloud based Solutions
+                                    <Link to='/' className='subdditem'>COTS/Baremetal solutions
                                         <Link to='/fourGncloud'>4G Solutions</Link>
                                         <Link to='/fiveGncloud'>5G Solutions</Link>
                                     </Link>

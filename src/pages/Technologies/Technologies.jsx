@@ -2,11 +2,11 @@ import React from 'react'
 import './Technologies.css'
 import Header from '../../components/header/header'
 import Footer from "../../components/footer/footer"
-import aiImg from '../../assets/images/AI1.jpg'
+import aiImg from '../../assets/images/ai.jpg'
 import esImg from '../../assets/images/pcb.jpg'
 import socImg from '../../assets/images/pbc2.jpg'
 import radioImg from '../../assets/images/radio.jpg'
-import cloudImg from '../../assets/images/cloud1.jpg'
+import cloudImg from '../../assets/images/datacenter.png'
 
 
 function Technologies() {

@@ -1,7 +1,7 @@
 .hero-page{
-    background-image: url('../../assets/images/pcb.jpg');
+    background-image: url('https://kashmirreader.com/wp-content/uploads/2020/09/5G.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(253, 239, 239)
+    color: rgb(255, 255, 255);
 }

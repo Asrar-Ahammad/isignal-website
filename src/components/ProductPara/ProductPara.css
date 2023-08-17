@@ -8,18 +8,18 @@
     display: flex;
     flex-direction: row-reverse;
 }
+
 .details p{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 30px;
     flex:6;
-    color: darkblue;
 }
 
 .details img{
     flex: 4;
     border-radius: 3rem;
     height: 450px;
-    width: 100%;
+    width: 700px;
     margin-bottom: 1rem;
     padding: 1rem;
 }
@@ -31,5 +31,12 @@
     .details{
         flex-direction: column-reverse;
         align-items: center;
+    }
+    .details p{
+        font-size: 1.2rem;
+    }
+
+    .details img{
+        width: 100%;
     }
 }

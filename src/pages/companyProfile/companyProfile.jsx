@@ -15,7 +15,7 @@ const CompanyProfile = () => {
                 <div className="blob"></div>
                 <div className="blobBx">
                     <h2>Company <span>Profile</span></h2>
-                    <p>ISRL Research Labs aims to revolutionize wireless communication through 5G product innovation and empowering youth through university research partnerships using expertise in embedded systems, AI and machine learning.</p>
+                    <p>iSignal Research Labs aims to revolutionize wireless communication through 5G product innovation and empowering youth through university research partnerships using expertise in embedded systems, AI and machine learning.</p>
                     <a href="#companyContent">
                         <button className="btn companybtn">
                             Learn more<ArrowDownIcon className="btnIcon" />
@@ -65,7 +65,7 @@ const CompanyProfile = () => {
                     </div>
                 </div>
 
-                <h2>Core Objectives</h2>
+                <h2>Core Domains</h2>
                 <div className="workAreas">
                     <div className="areaWrapper">
                         <div className="areaImg">

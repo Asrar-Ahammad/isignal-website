@@ -1,5 +1,6 @@
 import "./footer.css"
 import logo from "../../assets/images/isignal-logo.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -11,12 +12,13 @@ const Footer = () => {
                         <p>Passion sparks innovation, kindling boundless creativity.</p>
                     </div>
                     <div className="company-contents">
-                        <div className="contact">
-                            <p><span style={{ fontWeight: 'bold' }}>Address : </span>#389, 1st Floor, 3rd Cross, 2nd Main,<br /> Aswath Nagar,
-                                Marathahalli,Bangalore 560037<br />
-                                <span style={{ fontWeight: 'bold' }}>Mobile Number:</span> 9742930506 / 7829450444<br />
-                                <span style={{ fontWeight: 'bold' }}>Whatsapp:</span> 9742930506</p>
-                        </div>
+                        <Link to='/' className="company-content-link">Home</Link>
+                        <Link to='/companyProfile' className="company-content-link">Company</Link>
+                        <Link to='/products' className="company-content-link">Wireless Portfolio</Link>
+                        <Link to='/' className="company-content-link">Knowledge Center</Link>
+                        <Link to='/jobs' className="company-content-link">Career</Link>
+                        <Link to='/news' className="company-content-link">News</Link>
+                        <Link to='/contact' className="company-content-link">Contact us</Link>
                     </div>
                     <div className="map">
                         <iframe
@@ -32,7 +34,7 @@ const Footer = () => {
                         <a href="#">©2024 iSignal</a>
                     </div>
                     <br />
-                    <div className="terms">
+                    <div className="terms" style={{marginBottom:'2rem'}}>
                         <p>Terms of Service</p>
                         <p>Privacy Policy</p>
                         <p>cookies</p>

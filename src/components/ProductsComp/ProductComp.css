@@ -11,6 +11,9 @@
 }
 
 @media screen and (max-width:770px) {
+    .intro-pro{
+        height: 60vh;
+    }
     .intro-pro h2{
         font-size: 4rem;
     }

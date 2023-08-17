@@ -2,8 +2,8 @@ import "./homePage.css"
 import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
 import Services from "../../components/services/services";
-import video from '../../assets/videos/home-video.mp4'
 import TimeLine from "../../components/TimeLine/TimeLine";
+import video from '../../assets/videos/home-video.mp4'
 
 const accordionData = [
     {
@@ -49,10 +49,10 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <h2 className="homeh2" style={{ margin: "3rem" }}>Why Choose Us</h2>
-            <Services accordionData={accordionData} />
             <h2 className="homeh2" style={{ margin: "3rem" }}>iSignal Journey</h2>
             <TimeLine />
+            <h2 className="homeh2" style={{ margin: "3rem" }}>Why Choose Us</h2>
+            <Services accordionData={accordionData} />
             <Footer />
         </>
     );

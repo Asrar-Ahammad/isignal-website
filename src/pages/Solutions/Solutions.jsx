@@ -4,7 +4,7 @@ import Header from '../../components/header/header'
 import Footer from "../../components/footer/footer";
 import medImg from '../../assets/images/healthcare1.jpg';
 import eduImg from '../../assets/images/education.jpg';
-import defImg from '../../assets/images/defence.jpg';
+import defImg from '../../assets/images/drone.jpg';
 import agrImg from '../../assets/images/farm.jpg';
 import priImg from '../../assets/images/privateEnt.jpg'
 
@@ -42,7 +42,7 @@ function Solutions() {
                 <div className="sol-section">
                     <div className="sol-content">
                         <div>
-                            <h3>Defence</h3>
+                            <h3>Defense</h3>
                             <p>The incorporation of 5G technology into defense has transformative potential, revolutionizing armed forces with rapid data transmission, mission-critical communication, and real-time situational awareness. It supports unmanned systems, joint operations, and immersive training, while optimizing logistics and enhancing cybersecurity. 5G's benefits extend to disaster response, satellite communication, and smart base management. Overcoming challenges like security and collaboration is essential for effective implementation. While revolutionizing defense operations, careful consideration of ethics and security remains vital to harness 5G's capabilities while upholding national security.</p>
                         </div>
                     </div>

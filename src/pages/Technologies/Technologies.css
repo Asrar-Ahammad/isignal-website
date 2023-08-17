@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.tech-section:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
 .tech-img img{
     height: 50vh;
     width: 100%;
@@ -24,7 +28,6 @@
 
 .tech-content div p{
     font-size: 1.25rem;
-    color:darkblue
 }
 
 @media screen and (max-width:770px) {
@@ -42,5 +45,8 @@
     .tech-content div{
         padding: 10px;
         flex: 7;
+    }
+    .tech-section:nth-child(2n){
+        flex-direction: column-reverse;
     }
 }

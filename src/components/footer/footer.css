@@ -28,7 +28,12 @@
 
 .company-contents {
     display: flex;
-    gap: 3em;
+    flex-direction: column;
+    gap : .5rem
+}
+
+.company-content-link:hover{
+    color: rgb(49, 133, 155);
 }
 
 .research {

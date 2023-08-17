@@ -1,6 +1,5 @@
 import HomePage from "./pages/homePage/homePage";
-import { Route, BrowserRouter as Router } from "react-router-dom";
-import { Switch } from "react-router-dom/cjs/react-router-dom.min"
+import { Route, Routes } from "react-router-dom";
 import CompanyProfile from "./pages/companyProfile/companyProfile";
 import CareerPages from "./pages/careersPage/CareerPages";
 import NewsPage from "./pages/NewsPage/NewsPage";
@@ -20,57 +19,26 @@ import Team from "./pages/Team/Team";
 function App() {
   return (
 
-    <Router>
-      <div className="App">
-        <Switch>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
-          <Route path="/companyProfile">
-            <CompanyProfile />
-          </Route>
-          <Route path="/jobs">
-            <Jobs/>
-          </Route>
-          <Route path="/careers">
-            <CareerPages/>
-          </Route>
-          <Route path="/news">
-            <NewsPage/>
-          </Route>
-          <Route path="/contact">
-            <ContactPage/>
-          </Route>
-          <Route path="/products">
-            <Products/>
-          </Route>
-          <Route path="/solutions">
-            <Solutions/>
-          </Route>
-          <Route path="/technologies">
-            <Technologies/>
-          </Route>
-          <Route path="/research">
-            <ResearchAreas/>
-          </Route>
-          <Route path="/fourGncloud">
-            <Fgcloud/>
-          </Route>
-          <Route path="/fiveGncloud">
-            <Figncloud/>
-          </Route>
-          <Route path="/fourGcloud">
-            <FourGcloud/>
-          </Route>
-          <Route path="/fiveGcloud">
-            <FiveGCloud/>
-          </Route>
-          <Route path="/team">
-            <Team/>
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <div className="App">
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route path="/companyProfile" element={<CompanyProfile />} />
+          <Route path="/jobs" element={<Jobs />} />
+          <Route path="/careers" element={<CareerPages />} />
+          <Route path="/news" element={<NewsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/solutions" element={<Solutions />} />
+          <Route path="/technologies" element={<Technologies />} />
+          <Route path="/research" element={<ResearchAreas />} />
+          <Route path="/fourGncloud" element={<Fgcloud />} />
+          <Route path="/fiveGncloud" element={<Figncloud />} />
+          <Route path="/fourGcloud" element={<FourGcloud />} />
+          <Route path="/fiveGcloud" element={<FiveGCloud />} />
+          <Route path="/team" element={<Team />} />
+
+        </Routes>
+    </div>
 
   );
 }

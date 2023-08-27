@@ -14,6 +14,7 @@ import Figncloud from "./pages/figncloud/Figncloud";
 import FourGcloud from "./pages/FourGCLoud/FourGcloud";
 import FiveGCloud from "./pages/FIveGCloud/FiveGCloud";
 import Team from "./pages/Team/Team";
+import OranPage from "./pages/oranPage/OranPage";
 
 
 function App() {
@@ -33,9 +34,10 @@ function App() {
           <Route path="/research" element={<ResearchAreas />} />
           <Route path="/fourGncloud" element={<Fgcloud />} />
           <Route path="/fiveGncloud" element={<Figncloud />} />
-          <Route path="/fourGcloud" element={<FourGcloud />} />
-          <Route path="/fiveGcloud" element={<FiveGCloud />} />
+          <Route path="/fourGcloud" element= {<FourGcloud />}/>
+          <Route path="/fiveGcloud" element= {<FiveGCloud />}/>
           <Route path="/team" element={<Team />} />
+          <Route path="/oran" element = {<OranPage/>}/>
 
         </Routes>
     </div>

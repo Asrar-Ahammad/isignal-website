@@ -18,7 +18,7 @@ function ContactPage() {
                                 3rd Cross, 2nd Main, Aswath Nagar,<br />
                                 Marathahalli,Bangalore 560037</p><br/>
                             <p style={{fontWeight:'bold'}}>Our sub branch</p>
-                            <p>#404, Sai Vasanth Complex,<br/> Brila Compund,<br/> Near FlipKar [ Wall Mart], Kurnool</p>
+                            <p>#404, Sai Vasanth Complex,<br/> Brila Compund,<br/> Near FlipKart [ Wall Mart], Kurnool</p>
                         </div>
                         <div className="con-section">
                             <h3>Chat to us</h3>

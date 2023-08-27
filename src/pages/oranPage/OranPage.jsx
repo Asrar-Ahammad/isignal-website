@@ -1,19 +1,18 @@
 import React from 'react'
-import './FiveGCLoud.css'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
 import ProductComp from '../../components/ProductsComp/ProductComp'
 import ProductPara from '../../components/ProductPara/ProductPara'
+import './OranPage.css'
 
-
-function FiveGCloud() {
-    return (
-        <>
-            <Header />
-            <div className="main-5gcbody">
+const OranPage = () => {
+  return (
+    <>
+        <Header/>
+        <div className="main-5gcbody">
                 <div className="hero-5cpage">
                     <ProductComp
-                        mainHeading='5G Cloud based solutions'
+                        mainHeading='O-RAN'
                     />
                 </div>
                 <ProductPara
@@ -23,9 +22,9 @@ function FiveGCloud() {
                     contentImg1='https://www.bbva.ch/wp-content/uploads/2021/07/2-.-Ventajas-y-desventajas-de-la-tecnologia-5G-1.png'
                 />
             </div>
-            <Footer />
-        </>
-    )
+        <Footer/>
+    </>
+  )
 }
 
-export default FiveGCloud
+export default OranPage

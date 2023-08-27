@@ -49,6 +49,7 @@ const Header = () => {
                                         <Link to='/fourGcloud'>4G Solutions</Link>
                                         <Link to='/fiveGcloud'>5G Solutions</Link>
                                     </Link>
+                                    <Link to='/oran'>ORAN</Link>
                                 </div>
                             </Link>
                             <Link to="/research" className="dditem">Research areas

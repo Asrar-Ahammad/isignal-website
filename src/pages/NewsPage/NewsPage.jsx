@@ -37,7 +37,7 @@ function NewsPage() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ms2XCYsfZrY?si=CqWlbMopbqxtVa8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/_XP5C3zy5xM?si=48elrqTc6SQOJJyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                </div>
+                </div><br/>
                 <div className="newsSection">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/0eVK-ou4H-I?si=qiVtLrrnHgiTH5TJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/T2q86_pvVl0?si=7rbITM5zSEaX3Kx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

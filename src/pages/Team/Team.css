@@ -4,6 +4,8 @@
 
 .team-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-img{
@@ -15,7 +17,6 @@
     width: 80%;
 }
 .team-img img{
-    
     border-radius: 50%;
     object-fit: cover;
 }
@@ -56,6 +57,6 @@
 
 @media screen and (max-width:450px) {
     .team-page{
-        padding: 5px;
+        padding: 0;
     }
 }

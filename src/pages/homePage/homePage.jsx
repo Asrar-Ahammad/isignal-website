@@ -54,7 +54,7 @@ const HomePage = () => {
             <TimeLine />
             <h2 className="homeh2" style={{ margin: "3rem" }}>Why Choose Us</h2>
             <Services accordionData={accordionData} />
-            <PreferedPartners/>
+            {/* <PreferedPartners/> */}
             <Footer />
         </>
     );

@@ -24,6 +24,7 @@
     font-size: 1em;
     padding: 0 0 0 10px;
     font-weight: 300;
+    text-align: left;
 }
 
 .company-contents {
@@ -77,6 +78,7 @@
 
 .terms p {
     color: grey;
+    text-align: left;
 
 }
 
@@ -114,6 +116,8 @@
 
 @media screen and (max-width:450px){
     .company-contents {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap : 1rem;
     }
 }

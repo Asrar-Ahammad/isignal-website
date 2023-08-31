@@ -156,7 +156,7 @@ const Header = () => {
                                 <div className="menu-content">iSignal Acheivements</div>
                             </Link>
                             <Link to='/university_connect'>
-                                <div className="menu-content">iSignal Learning</div>
+                                <div className="menu-content">iSignal University Connect</div>
                             </Link>
                         </div>
                         <div className="menu-item">

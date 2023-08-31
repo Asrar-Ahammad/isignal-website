@@ -12,7 +12,7 @@ function ResearchAreas() {
                 <h2 id='3gpp'>3GPP: Shaping Global Mobile Communication Standards for Seamless Connectivity</h2>
                 <div className="research-section">
                     <div className="research-content">
-                        <p>The 3rd Generation Partnership Project (3GPP) is a collaborative global initiative that develops and standardizes mobile communication technologies. Comprising leading telecommunications organizations, 3GPP defines specifications for wireless networks, including 5G, 4G LTE, and earlier generations. It addresses areas like network architecture, protocols, and system interfaces, ensuring interoperability and consistent performance across devices and networks. Through iterative releases, 3GPP drives technological advancements, enabling seamless communication, data transfer, and services worldwide. Its work underpins the evolution of mobile connectivity, fostering innovation and enhancing the way individuals and industries interact, communicate, and access information in our increasingly interconnected world.</p>
+                        <p>3GPP is a collaborative initiative shaping global mobile communication standards. It standardizes networks, including 5G and 4G LTE, through specifications developed by leading telecom organizations. Ensuring interoperability, it drives technological advancements for seamless communication and data transfer, underpinning mobile connectivity evolution and fostering innovation worldwide.</p>
                         <img src={gpImg} alt="" />
                     </div>
                 </div>

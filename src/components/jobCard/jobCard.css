@@ -25,10 +25,12 @@
   .content .heading {
     font-weight: 700;
     font-size: 30px;
+    text-align: left;
   }
   
   .content .para {
     line-height: 1.2;
+    text-align: left;
   }
 
   .content .para span{

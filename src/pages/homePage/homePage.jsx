@@ -4,6 +4,7 @@ import Header from "../../components/header/header";
 import Services from "../../components/services/services";
 import TimeLine from "../../components/TimeLine/TimeLine";
 import video from '../../assets/videos/home-video.mp4'
+import PreferedPartners from "../../components/Preferedpartner/PreferedPartners";
 
 const accordionData = [
     {
@@ -53,6 +54,7 @@ const HomePage = () => {
             <TimeLine />
             <h2 className="homeh2" style={{ margin: "3rem" }}>Why Choose Us</h2>
             <Services accordionData={accordionData} />
+            <PreferedPartners/>
             <Footer />
         </>
     );

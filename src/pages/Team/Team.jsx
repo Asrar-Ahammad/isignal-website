@@ -18,31 +18,9 @@ function Team() {
                     <div className="team-info">
                         <h2>Mr.Ram</h2>
                         <p><span>Profile:</span><br /><br />
-                            • Worked on 4G/LTE Wireless Technology in Telecom Space.<br />
-                            • ~15Yrs of Experience in the Development of Wireless Technologies.<br />
-                            • Involved in the Implementation of UE and eNB features based on 3gpp Releases.<br />
-                            • Worked on Development and Testing on 3G, and LTE for various clients such as Mediatek, Intel, Samsung,
-                            Rohde & Schwarz, and Nortel.<br />
-                            • Worked on various Platforms for Mediatek chipsets.<br />
-                            • Delivered Professional Training on 5G/LTE in L & T Tech Services.<br />
-                            • Delivered Multiple Professional “C, C++ on Linux” Trainings Especially from the Telecom context.<br />
-                            • Conducted Interviews for Senior Level Recruitments at L&T Technology Services.<br />
-                            • Currently heading “iSignal Research Labs” to support Corporates for on Demand Consultation for various
-                            LTE/5G projects, recruitment support, and Academia for Research in 5G Technologies like Massive MIMO, NOMA and Adaptive Beam-forming/steering Solutions.<br /><br />
-                            <span>Training Responsibility:</span><br /><br />
-                            • Essential C, Advanced Data Structures<br />
-                            • Linux System Programming [Inter Process Communication, Multi-Threading, Socket Programming]<br />
-                            • Algorithm Design & Development for Various Air Interface Protocol layers<br />
-                            • Essential Python Required for Wireless Automation<br />
-                            • 4G/LTE Protocols – Access Protocols [PHY, MAC, RLC, PDCP, RRC] for Both UE and eNB<br />
-                            • 4G/LTE Protocols – Non-Access Protocols NAS[UE - MME], EPC Call Flows, Handovers, CSFB, SRVCC, VoLTE, SIP, IMS<br />
-                            • Practical C++ on Linux, OOPS, STL, C++11, C++14, C++17.<br />
-                            • 5G/NR RAN – Air Interface Access Protocols [PHY, MAC, RLC, PDCP, RRC, SDAP] for Both UE and gNB.<br /><br />
-                            <span>Product Delivery:</span><br /><br />
-                            • Wireless Head & Delivery for Architecture, Design of the SethuKrithe 5G Product and AirSig Product and Cloud Solutions<br />
-                            • Product Showcasing at various Indian and International Conferences
-                            Academic Partnership Responsibilities:<br />
-                            • FDPs, Guest Lectures, Seminars, Lab Setups, Workshops, M.Tech Internship Supports, Publishing</p>
+                            • Chief Mentor, Instructor for iSignal Research Labs, with 15years of Industrial work experience in Cellular Air Interface Technologies for various projects like OAM, Configurations, 4G,5G Protocol Stack implementation for Samsung, L & T Technologies, Infosys, 3G Network Solutions, Rohde & Schwarz for Intel UEs, worked for MediaTek chipsets in 3G WCDMA and 4G LTE OFDMA, MIMO, and Core network for Nortel Client. He is the Active member of various IEEE Societies of Bangalore Chapter, IEEE ComSoc, Signal Processing Society, attended and conducted various IEEE events in the past in Bangalore. He has conducted several Guest Lectures, Invited Tech Talks, Workshops, Seminars and Webinars in the past. Currently he is involved in Next Generation 5G/6G Air Interface Research and Development of Proof of Concepts and Contributions to 3gpp Standards, along with activities like career enablement, Trainings, Lab-Setups and involved in on demand Projects and dedicated to support academia from industry stand point.<br/><br/>
+                            • Research Focus: B5G,6G, Signal processing with AI, ML, DL for the development/creation of the solutions involving MIMO, massiveMIMO, mmWave, beamforming advanced technologies.<br/><br/>
+                            • PoC Focus: SDR Setups, DSP, 4G, 5G EN-DC NR PoC Setups 6G Simulations, B5G. 3gpp Contributions,</p>
                     </div>
                 </div>
             </div>

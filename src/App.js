@@ -15,6 +15,8 @@ import FourGcloud from "./pages/FourGCLoud/FourGcloud";
 import FiveGCloud from "./pages/FIveGCloud/FiveGCloud";
 import Team from "./pages/Team/Team";
 import OranPage from "./pages/oranPage/OranPage";
+import AchievePage from "./pages/achievementsPage/AchievePage";
+import UniConnect from "./pages/universityConnect/UniConnect";
 
 
 function App() {
@@ -38,7 +40,8 @@ function App() {
           <Route path="/fiveGcloud" element= {<FiveGCloud />}/>
           <Route path="/team" element={<Team />} />
           <Route path="/oran" element = {<OranPage/>}/>
-
+          <Route path="/acheivements" element={<AchievePage/>}/>
+          <Route path="/university_connect" element={<UniConnect/>}/>
         </Routes>
     </div>
 

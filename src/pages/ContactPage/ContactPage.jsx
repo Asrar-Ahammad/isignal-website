@@ -21,9 +21,9 @@ function ContactPage() {
                             <p>#404, Sai Vasanth Complex,<br/> Brila Compund,<br/> Near FlipKart [ Wall Mart], Kurnool</p>
                         </div>
                         <div className="con-section">
-                            <h3>Chat to us</h3>
+                            <h3>Sales</h3>
                             <p>Our friendly team is here to help.</p>
-                            <a href="mailto:info@isignalresearch.com">info@isignalresearch.com</a>
+                            <a href="mailto:ram@isignalresearch.com">ram@isignalresearch.com</a>
                         </div>
                         <div className="con-section">
                             <h3>Call us</h3>
@@ -38,7 +38,6 @@ function ContactPage() {
                                 <a href="https://www.youtube.com/channel/UCniUAbWz6YT2XEeCSBhVoCQ"><BsYoutube /></a>
                                 <a href="https://chat.whatsapp.com/BkqZKlRKbPP0TfLFYVpCu8"><BsWhatsapp /></a>
                                 <a href="https://www.facebook.com/isignalofficial"><BsFacebook /></a>
-                                <a href=""><BsMicrosoftTeams /></a>
                             </div>
                         </div>
                     </div>

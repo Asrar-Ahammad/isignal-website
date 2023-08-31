@@ -47,7 +47,7 @@ function Products() {
                     </div>
                 </div>
                 <div className="product-section" id='rad'>
-                    <h3>Rads™</h3>
+                    <h3>RadOs™</h3>
                     <h4>RadOs: Next-Gen Real-Time Operating System</h4>
                     <div className="product-content">
                         <img src={radimg} alt="" />

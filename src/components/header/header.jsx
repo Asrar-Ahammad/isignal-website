@@ -60,6 +60,8 @@ const Header = () => {
                         Knowledge Center
                         <div className="dropdown">
                             <Link to="/">iSignal Learning</Link>
+                            <Link to="/acheivements">iSignal Acheivements</Link>
+                            <Link to="/university_connect">iSignail University Connect</Link>
                         </div>
                     </div>
                     <div className="navbar-item">
@@ -104,7 +106,7 @@ const Header = () => {
                                 </Link></div>
                             <div className="menu-sub-item">
                                 <Link to='/team'>
-                                <div className="menu-content">Team</div>
+                                    <div className="menu-content">Team</div>
                                 </Link>
                             </div>
                         </div>
@@ -112,54 +114,59 @@ const Header = () => {
                             <h5>Wireless Profolio</h5>
                             <div className="menu-sub-item">
                                 <Link to='/solutions'>
-                                <div className="menu-content">Solutions</div>
-                                    </Link>
+                                    <div className="menu-content">Solutions</div>
+                                </Link>
                             </div>
                             <div className="menu-sub-item">
                                 <Link to='/technologies'>
-                                <div className="menu-content">Technologies</div>
-                                    </Link>
+                                    <div className="menu-content">Technologies</div>
+                                </Link>
                             </div>
                             <div className="menu-sub-item">
                                 <Link to='/products'>
-                                <div className="menu-content">Products</div>
-                                    </Link>
+                                    <div className="menu-content">Products</div>
+                                </Link>
                                 <div className="semi-sub">
                                     <Link to='/fourGcloud'>
-                                    <div className="menu-content">4G Cloud based solutions</div>
-                                        </Link><br />
+                                        <div className="menu-content">4G Cloud based solutions</div>
+                                    </Link><br />
                                     <Link to='/fiveGcloud'>
-                                    <div className="menu-content">5G Cloud based solutions</div>
-                                        </Link><br />
+                                        <div className="menu-content">5G Cloud based solutions</div>
+                                    </Link><br />
                                     <Link to='/fourGncloud'>
-                                    <div className="menu-content">4G Non Cloud based solutions</div>
-                                        </Link><br />
+                                        <div className="menu-content">4G Non Cloud based solutions</div>
+                                    </Link><br />
                                     <Link to='/fiveGncloud'>
-                                    <div className="menu-content">5G Non Cloud based solutions</div>
-                                        </Link>
+                                        <div className="menu-content">5G Non Cloud based solutions</div>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="menu-sub-item">
-                                <Link to='/research'>
-                                <div className="menu-content">Research Areas</div>
-                                    </Link>
+                                <Link to='/research'><br />
+                                    <div className="menu-content">Research Areas</div>
+                                </Link>
                             </div>
                         </div>
                         <div className="menu-item">
                             <h5>Knowledge Center</h5>
                             <Link to='/'>
-                            <div className="menu-content">iSignal Learning</div>
-                                </Link>
-
+                                <div className="menu-content">iSignal Learning</div>
+                            </Link>
+                            <Link to='/acheivements'>
+                                <div className="menu-content">iSignal Acheivements</div>
+                            </Link>
+                            <Link to='/university_connect'>
+                                <div className="menu-content">iSignal Learning</div>
+                            </Link>
                         </div>
                         <div className="menu-item">
-                        <Link to='/jobs'><h5>Career</h5></Link>
+                            <Link to='/jobs'><h5>Career</h5></Link>
                         </div>
                         <div className="menu-item">
-                        <Link to='/news'><h5>News</h5></Link>
+                            <Link to='/news'><h5>News</h5></Link>
                         </div>
                         <div className="menu-item">
-                        <Link to='/contact'><h5>Contact us</h5></Link>
+                            <Link to='/contact'><h5>Contact us</h5></Link>
                         </div>
                     </div>
                 </div>

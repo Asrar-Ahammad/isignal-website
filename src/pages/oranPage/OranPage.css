@@ -1,0 +1,7 @@
+.hero-oranpage{
+    background-image: url('../../assets/images/oran.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255)
+}

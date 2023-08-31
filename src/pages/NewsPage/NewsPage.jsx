@@ -32,6 +32,16 @@ function NewsPage() {
                         <p>The iSignal platform is designed to elevate corporate proficiency in 4G and 5G technologies within the protocols stack domain. Our distinguished team of experts is dedicated to providing comprehensive support to engineers fulfilling diverse roles across the industry.</p>
                     </div>
                 </div>
+                <h3 className='news-video-heading'>Videos</h3>
+                <div className="newsSection">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ms2XCYsfZrY?si=CqWlbMopbqxtVa8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_XP5C3zy5xM?si=48elrqTc6SQOJJyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </div>
+                <div className="newsSection">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0eVK-ou4H-I?si=qiVtLrrnHgiTH5TJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/T2q86_pvVl0?si=7rbITM5zSEaX3Kx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
             <Footer />
         </>

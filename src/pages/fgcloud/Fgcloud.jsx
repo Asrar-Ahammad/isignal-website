@@ -40,6 +40,7 @@ function Fgcloud() {
                     contentImg1={img4}
                 />
             </div>
+            
             <Footer />
         </>
     )

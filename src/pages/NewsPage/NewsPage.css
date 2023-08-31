@@ -60,6 +60,11 @@
     font-size: 1.2rem;
 }
 
+.news-video-heading{
+    text-align: center;
+    font-size: 4rem;
+}
+
 @media screen and (max-width:770px) {
     .news {
         display: flex;
@@ -91,5 +96,15 @@
     }
     .newsSection:nth-child(2n){
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width:450px){
+    .news-video-heading{
+        font-size: 3rem;
+    }
+    .newsSection iframe{
+        width:370px ;
+        height:250px;
     }
 }

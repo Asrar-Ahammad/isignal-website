@@ -61,7 +61,7 @@ const CompanyProfile = () => {
                     <div className="sectionContent">
                         <h2>Our Core Values</h2>
                         <img src="" alt="" />
-                        <p>System on chip integrates multiple components, VLSI/PCB design handles electronics layout, AI/IoT enables smart automation, DSP processes signals, Embedded Systems perform specific tasks, 4G-LTE/5G-NR ensure seamless connectivity.</p>
+                        <p>With an inventive approach and fearless determination, we have established a legacy of dependability, earning the trust of our clients through open collaboration.</p>
                     </div>
                 </div>
 

@@ -5,6 +5,7 @@ import Services from "../../components/services/services";
 import TimeLine from "../../components/TimeLine/TimeLine";
 import video from '../../assets/videos/home-video.mp4'
 import PreferedPartners from "../../components/Preferedpartner/PreferedPartners";
+import TestComp from "../../components/testComp/TestComp";
 
 const accordionData = [
     {
@@ -52,9 +53,9 @@ const HomePage = () => {
 
             <h2 className="homeh2" style={{ margin: "3rem" }}>iSignal Journey</h2>
             <TimeLine />
+            <PreferedPartners/>
             <h2 className="homeh2" style={{ margin: "3rem" }}>Why Choose Us</h2>
             <Services accordionData={accordionData} />
-            {/* <PreferedPartners/> */}
             <Footer />
         </>
     );

@@ -1,23 +1,22 @@
-import React from 'react'
-import './PrefreredPartners.css'
-import tata from '../../assets/images/Tata.png'
-import samsung from '../../assets/images/samsung.png'
-import capgemini from '../../assets/images/Capgemini.png'
-import mahindra from '../../assets/images/Mahindra.png'
-import huawei from '../../assets/images/Huawei.png'
-import commscope from '../../assets/images/Commscope.png'
-import nokia from '../../assets/images/nokia.png'
-import qualcomm from '../../assets/images/Qualcomm.png'
-import nutaq from '../../assets/images/nutaq.jpeg'
-import tcs from '../../assets/images/tcs.jpeg'
-import microscale from '../../assets/images/microscale.webp'
-import radisys from '../../assets/images/radisys.svg'
-
+import React from "react";
+import "./PrefreredPartners.css";
+import tata from "../../assets/images/Tata.png";
+import samsung from "../../assets/images/samsung.png";
+import capgemini from "../../assets/images/Capgemini.png";
+import mahindra from "../../assets/images/Mahindra.png";
+import huawei from "../../assets/images/Huawei.png";
+import commscope from "../../assets/images/Commscope.png";
+import nokia from "../../assets/images/nokia.png";
+import qualcomm from "../../assets/images/Qualcomm.png";
+import nutaq from "../../assets/images/nutaq.jpeg";
+import tcs from "../../assets/images/tcs.jpeg";
+import microscale from "../../assets/images/microscale.webp";
+import radisys from "../../assets/images/radisys.svg";
 
 const PreferedPartners = () => {
   return (
     <>
-    <h1 className='pref-h1'>Preferred Partners</h1>
+      <h1 className="pref-h1">Preferred Partners</h1>
       <div className="sliderBody">
         <div class="slider">
           <div class="slide-track">
@@ -61,7 +60,7 @@ const PreferedPartners = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PreferedPartners
+export default PreferedPartners;

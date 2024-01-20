@@ -18,7 +18,7 @@ function Team() {
           </div>
           <div className="team-info">
             <h2>Mr.Ram</h2>
-            <h3>Cheif Mentor</h3>
+            <h3>Wireless R&D | Head of Standards</h3>
             <h4>Experience</h4>
             <p className="xp">
               Ex-Infosys, Ex-L&T with several Engagements with Samsung,

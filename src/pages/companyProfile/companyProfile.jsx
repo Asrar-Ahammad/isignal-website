@@ -30,7 +30,7 @@ const CompanyProfile = () => {
                     </div>
                     <div className="sectionContent">
                         <h2>Who we are</h2>
-                        <p>iSignal Research Labs Pvt. Ltd is a 6 Year Old Indian based Wireless Startup, Bangalore who involved in innovative wireless 4G and 5G technology creating the industry impactful AI-Native and AI-Enabled RAN solutions to integrate with the hardware vendors. Also involved in competency development in the area of the protocol stack development with the involvement of small cell base station with the cost-effective Software Defined Radio and Cloud Variants of 4G and 5G Solutions. Extensively contributing for 6G Research and Standardization by working on inspiring innovations in the Field like Embedded, DSP, IoT, AI, ML, and DL Fields for various business Use cases targeting Indian and International Markets.</p>
+                        <p>Bangalore's iSignal Labs pushes AI-powered wireless (4G/5G/6G) for global impact, from RAN solutions to embedded AI. </p>
                     </div>
                 </div>
 

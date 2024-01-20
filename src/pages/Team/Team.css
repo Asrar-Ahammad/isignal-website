@@ -1,62 +1,91 @@
-.team-page{
-    padding: 30px;
+.team-page {
+  padding: 2vw;
+}
+.team-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #ffffff;
+  background-image: linear-gradient(135deg, #ffffff 0%, #5899e2 74%);
+  border-radius: 2rem;
+  margin-bottom: 2vw;
 }
 
-.team-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.team-card:nth-child(2n) {
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
 }
 
-.team-img{
-    display: flex;
+.team-img {
+  padding:7vw;
+}
+
+.team-img img {
+  border-radius: 1.75rem;
+  object-fit: cover;
+  height: 30vw;
+  width: 30vw;
+}
+
+.team-info {
+  padding: 3vw 7vw;
+  color: white;
+}
+
+.team-info h2 {
+  font-size: 3vw;
+}
+.team-info h3 {
+  font-size: 1.5vw;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.team-info h4 {
+  font-size: 1.75vw;
+  margin: 1vw 0;
+}
+
+.team-info p {
+  margin: 0.8vw 0;
+  font-size: 1.25vw;
+}
+
+span {
+  font-weight: bold;
+}
+
+.portait-image{
+  object-position: top;
+}
+@media screen and (max-width: 770px){
+  .team-card,.team-card:nth-child(2n){
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 60%;
-    width: 80%;
+    background-image: linear-gradient(135deg, #ffffff 0%, #5899e2 74%);
+  }
+  
 }
-.team-img img{
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.team-img p{
-    padding: 30px;
-    text-align: center;
-    font-size: 1.12rem;
-}
-
-.team-info{
-    padding: 30px;
-    width: 90%;
-}
-
-.team-info h2{
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    color: darkred;
-}
-
-.team-info p{
-    line-height: 1.25rem;
-    font-size: 1.1rem;
-}
-
-.team-info p span{
-    color:darkred;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-@media screen and (max-width:770px) {
-    .team-container{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width:450px) {
-    .team-page{
-        padding: 0;
-    }
+@media screen and (max-width: 450px){
+  .team-info h2 {
+    font-size: 2rem;
+  }
+  .team-info h3 {
+    font-size: 1.3rem;
+  }
+  .team-info h4 {
+    font-size: 1.25rem;
+  }
+  .team-info p{
+    font-size: 1rem;
+  }
+  .team-img img{
+    height: 40vw;
+    width: 40vw;
+  }
+  .team-info p{
+    margin: 1.5vw 0;
+  }
 }

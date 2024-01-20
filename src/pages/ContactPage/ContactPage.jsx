@@ -19,10 +19,10 @@ function ContactPage() {
 
     emailjs
       .sendForm(
-        "service_ztk8ac5",
-        "template_bkorjj8",
+        "",
+        "",
         form.current,
-        "DwHoc5cFKA7EhXydN"
+        ""
       )
       .then(
         (result) => {

@@ -16,9 +16,9 @@ function CareerPages() {
     emailjs
       .sendForm(
         "service_mi45bni",
-        "template_9qfacwp",
+        "",
         form.current,
-        "DwHoc5cFKA7EhXydN"
+        ""
       )
       .then(
         (result) => {

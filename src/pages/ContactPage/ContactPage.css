@@ -1,7 +1,6 @@
 .contactForm{
-    height: fit-content;
+    padding: 0 2vw;
     display: flex;
-    padding: 35px;
     gap: 2em;
 }
 
@@ -92,6 +91,9 @@ form .name{
 }
 
 @media screen and (max-width:300px) {
+    .contactForm{
+        padding: 0;
+    }
     .ContactDetails{
         margin: 0.1rem;
         padding: 1.5rem 1rem;

@@ -13,6 +13,7 @@ To get started with iSignal Website, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
+   # Install git bash if this command does not work.
    git clone https://github.com/Asrar-Ahammad/isignal-website.git
 
 2. **Navigate to the Project Directory:**

@@ -5,7 +5,7 @@ import Footer from "../../components/footer/footer";
 import director from "../../assets/images/director.png";
 import seniorArchitect from "../../assets/images/Lavanya.jpeg";
 import surya from "../../assets/images/Surya.png";
-import viswa from "../../assets/images/viswaraj.png";
+import viswa from "../../assets/images/vishwaraj.jpeg";
 
 function Team() {
   return (
@@ -152,7 +152,7 @@ function Team() {
             <img src={viswa} alt="" />
           </div>
           <div className="team-info">
-            <h2>Mr.Viswaraj</h2>
+            <h2>Dr.Vishwaraj</h2>
             <h3>Research and IP Consultant</h3>
             <h4>Experience</h4>
             <p className="xp">

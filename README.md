@@ -4,7 +4,6 @@ Welcome to the iSignal Website repository!
 
 ## Table of Contents
 
-- [Features](#features)
 - [Getting Started](#getting-started)
 - [License](#license)
 
